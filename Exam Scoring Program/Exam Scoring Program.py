@@ -1,8 +1,3 @@
-# Zane Mazor-Brown
-# Professor King
-# BUS 392-01
-# 10 November 2021
-
 # College of Business Exam Scoring Application
 
 # The department’s Scantron machine has broken. Due to budget pressures, the
@@ -20,15 +15,7 @@
 # exam. (A student must correctly answer 18 of the 25 questions to pass the
 # exam.) It should then display the total number of correctly answered 
 # questions, the total number of incorrectly answered questions, and a list
-# showing the question numbers of the incorrectly answered questions. The 
-# deliverable is a source code file with the .py extension submitted through 
-# Canvas.
-
-# NOTES:
-#   - Your program must use functions and a main().
-#   - Use of exception handling is encouraged!
-#   - Your program must have comments for each line or section in code 
-#     (including in main()).
+# showing the question numbers of the incorrectly answered questions.
 
 # define main function
 def main():
