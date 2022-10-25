@@ -1,4 +1,4 @@
-# 7.6 - Write a program so it simulates a simplified version of the game of
+#       Write a program so it simulates a simplified version of the game of
 #       Blackjack between two virtual players. The cards have the following 
 #       values: Numeric cards are assigned the value they have printed on them.
 #       For example, the value of the 2 of spades is 2, and the value of the 5
@@ -19,8 +19,6 @@
 #       You should have a function to shuffle the deck before starting and after
 #       playing through all of the cards.
 
-#       Use this dictionary for the deck:
-
 deck = {'Ace of Spades':1, '2 of Spades':2, '3 of Spades':3, '4 of Spades':4,
         '5 of Spades':5, '6 of Spades':6, '7 of Spades':7, '8 of Spades':8,
         '9 of Spades':9, '10 of Spades':10, 'Jack of Spades':10,
@@ -39,23 +37,12 @@ deck = {'Ace of Spades':1, '2 of Spades':2, '3 of Spades':3, '4 of Spades':4,
         'King of Diamonds': 10
         }
 
-#       Useful dictionary methods you may wish to investigate are pop(),
-#       popitem(), keys(), values(), items()
-
-#       You may also find the the choice() and choices() methods from the 
-#       random module useful
-
-
-# Could not figure out how to shuffle deck (random.shuffle doesn't work with
-# dictionaries)? Would shuffling the deck even change anything functionally?
-# still using random.choice to select cards.
-
 import random
 
 def main():
     # create empty lists to split dictionary components into
     p1_cards, p1_vals, p2_cards, p2_vals = [], [], [], []
-    # create variables to keep track of game stats (optional)
+    # create variables to keep track of game stats
     game_nums, p1_wins, p2_wins, ties = 0, 0, 0, 0
     # loop to continue dealing while deck still has cards in it
     while len(deck) > 0:
