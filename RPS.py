@@ -1,18 +1,7 @@
-#   Zane Mazor-Brown
-#   Professor King
-#   BUS 392-01
-#   29 October 2021
-
-#   Homework #3
-
-#   Write a program that lets the user play the game of Rock, Paper, Scissors 
-#   against the computer. The program should work as follows:
-
 #   1. When the program begins, a random number in the range of 1 through 3 is
 #      generated. If the number is 1, then the computer has chosen rock. If the
 #      number is 2, then the computer has chosen paper. If the number is 3, 
-#      then the computer has chosen scissors. (Don’t display the computer’s 
-#      choice yet.)
+#      then the computer has chosen scissors.
 #   2. The user enters his or her choice of “rock,” “paper,” or “scissors” at 
 #      the keyboard.
 #   3. The computer’s choice is displayed.
